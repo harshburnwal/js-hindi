@@ -6,15 +6,9 @@ let myDate = new Date()
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
-<<<<<<< HEAD
 // let myCreatedDate = new Date(2024, 0, 23)
 // let myCreatedDate = new Date(2024, 0, 23, 5, 3)
 // let myCreatedDate = new Date("2024-01-28")
-=======
-// let myCreatedDate = new Date(2023, 0, 23)
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
->>>>>>> 5b8ab1be4368c50a766358f07a93b15a8ef9e949
 let myCreatedDate = new Date("01-28-2024")
 // console.log(myCreatedDate.toLocaleString());
 
