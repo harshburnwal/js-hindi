@@ -1,4 +1,4 @@
-let score = "hitesh"
+let score = "harsh"
 
 //console.log(typeof score);
 //console.log(typeof(score));
