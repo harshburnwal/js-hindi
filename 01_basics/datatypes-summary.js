@@ -32,6 +32,30 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.table([typeof score, typeof isLoggedIn, typeof outsideTemp, typeof userEmail, typeof anotherId, typeof heros, typeof myObj, typeof myFunction]);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myInstagramPage = "harsh_burnwal"
+
+let anotherName = myInstagramPage
+anotherName = "whyharsh"
+
+console.log(myInstagramPage);
+console.log(anotherName);
+
+let userOne = {
+    email : "hb@hb.com",
+    upi : "hb@axl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hb@cypher.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
